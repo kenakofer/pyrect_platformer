@@ -18,6 +18,8 @@ Platforming game in pygame, with precision control and good frame-of-reference p
 + Several levels serve as a demonstration of gameplay possibilities for further development
 + Good frame of reference physics: Am I moving or is the rest of the world?
 
+![alt text](https://github.com/kenanbit/pyrect_platformer/blob/master/screenshot.png "Is the yellow square moving or the grey platforms around it?")
+
 ## Level design
 
 New levels are easily laid out with the level editor, which outputs full python source with a function for the level's creation. Buttons and platforms can be given more dynamic options by editing this python source. Newly created levels must be added to the level queue in `main.py`. The level initialization function exported by the level file can take an arbitrary number of arguments. 
