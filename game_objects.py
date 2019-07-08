@@ -527,9 +527,6 @@ class Player(Dynamic):
             #Only use the jump velocity if it is faster than our current upward speed (like off a bounce)
             self.vel[Y] = min(self.vel[Y], new_vel_Y)
 
-
-
-
     def paint_self(self, screen, viewport):
         if self.visible:
             [[x,y],[w,h]] = get_viewport_bounds(self.bounds, viewport)

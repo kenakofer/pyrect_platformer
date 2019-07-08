@@ -21,6 +21,27 @@ KILL_THRESHHOLD=2                   #How much "crunch" you take before dying
 SUPER_WALL_ELASTICITY=1.5
 SUPER_WALL_HORIZONTAL_ELASTICITY=3
 
+pygame.font.init() 
+FONT = pygame.font.SysFont('droidserif', 13)
+
+# For level_design.py
+UNUSED=0
+CLICK_DRAG=1
+POINTS_SELECT=2
+SPEED_SELECT=3
+
+TOOL_DISPLAY_HEIGHT = 20
+TOOL_DISPLAY_WIDTH = 100
+TOOL_DISPLAY_COLOR = (255,255,255)
+
+STATUS_MESSAGE_COLOR = (255,255,0)
+START_STATUS = "Welcome to the level editor! Click and drag to make a wall, or select a different object with the keyboard."
+POINTS_SELECT_STATUS = "Click to add points to a motion track, or RETURN to finish" 
+
+
+
+
+
 #######################
 ##Derived constants, very useful in constructing levels
 def get_walk_speed(accel, friction):

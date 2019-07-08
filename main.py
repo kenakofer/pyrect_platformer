@@ -39,7 +39,7 @@ def main():
     level_initializers = []
     #level_initializers.append((level.physical_limitations_test, ()))
     #level_initializers.append((level_modules['lvl0'].initialize, ()))
-    level_initializers.append((level.stuck_in_a_square, (200,500,1,20)))
+    #level_initializers.append((level.stuck_in_a_square, (200,500,1,20)))
     level_initializers.append((level_modules['lvl1'].initialize, ()))
     level_initializers.append((level.bounce_wall_climb, (500, 90)))
     level_initializers.append((level_modules['lvl3'].initialize, ()))
