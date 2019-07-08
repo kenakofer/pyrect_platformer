@@ -1,0 +1,8 @@
+Secondary dynamic objects (boxes to push around!)
+Item support (gravity switchers!)
+    need to be able to flip the world
+    portals? That would be cool, but a bit of a dream
+Moving platform line indicators
+Buttons with multiple listeners and actions
+extra viewport moving (smooth)
+
